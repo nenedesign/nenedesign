@@ -11,13 +11,32 @@ I architect and ship production-grade AI automation systems — agentic RAG pipe
 ### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
 Production-ready automation workflows: agentic RAG, AI agents, and developer utilities — importable directly into n8n.
 
-| Workflow | Category | Level |
-|----------|----------|-------|
-| [Autonomous customer support agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/autonomous-customer-support-agent) | AI Agents | Advanced |
-| [Multi-KB agentic RAG assistant](https://github.com/nenedesign/n8n-workflows/tree/main/rag/multi-kb-agentic-rag-assistant) | RAG | Advanced |
-| [Slack Gemini Agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/slack-gemini-agent) | AI Agents | Intermediate |
-| [Seed Supabase from Notion](https://github.com/nenedesign/n8n-workflows/tree/main/rag/seed-supabase-from-notion) | RAG | Intermediate |
-| [Claude to Slack MCP Test](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/claude-to-slack-mcp-test) | Utilities | Beginner |
+| Workflow | Category | Level | Canvas |
+|----------|----------|-------|--------|
+| [Autonomous customer support agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/autonomous-customer-support-agent) | AI Agents | Advanced | [View](https://github.com/nenedesign/n8n-workflows/blob/main/ai-agents/autonomous-customer-support-agent/preview.png) |
+| [Multi-KB agentic RAG assistant](https://github.com/nenedesign/n8n-workflows/tree/main/rag/multi-kb-agentic-rag-assistant) | RAG | Advanced | [View](https://github.com/nenedesign/n8n-workflows/blob/main/rag/multi-kb-agentic-rag-assistant/preview.png) |
+| [Slack Gemini Agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/slack-gemini-agent) | AI Agents | Intermediate | [View](https://github.com/nenedesign/n8n-workflows/blob/main/ai-agents/slack-gemini-agent/preview.png) |
+| [Seed Supabase from Notion](https://github.com/nenedesign/n8n-workflows/tree/main/rag/seed-supabase-from-notion) | RAG | Intermediate | [View](https://github.com/nenedesign/n8n-workflows/blob/main/rag/seed-supabase-from-notion/preview.png) |
+| [Claude to Slack MCP Test](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/claude-to-slack-mcp-test) | Utilities | Beginner | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/claude-to-slack-mcp-test/preview.png) |
+
+---
+
+## System Architecture
+
+Production customer support agent — 50 nodes, async webhook intake, multi-KB RAG with web search fallback, confidence-gated routing, and full audit trail.
+
+```mermaid
+flowchart LR
+    A["Inbound Request\nWebhook · Slack · Email"] --> B["Auth · Rate Limit · PII Scrub"]
+    B --> C["202 Accepted"]
+    B --> D["AI Support Agent"]
+    D --> E[("Primary KB")]
+    D --> F[("Reference KB")]
+    D --> G["Web Search Fallback"]
+    E & F & G --> H{"Confidence\nScore"}
+    H -- High --> I["Auto-Reply\nSlack · Email · Webhook"]
+    H -- Low --> J["Human Escalation\n+ Audit Log"]
+```
 
 ---
 
@@ -38,4 +57,8 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 
 ---
 
-**Links:** [Portfolio](https://www.fromus.ca/ai-builds) · [LinkedIn](https://www.linkedin.com/in/nevilleko/) · [n8n Official Creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) · [n8n Marketplace](https://n8n.io/creators/) 
+**Links:** [Portfolio](https://www.fromus.ca/ai-builds) · [LinkedIn](https://www.linkedin.com/in/nevilleko/) · [n8n Official Creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) · [n8n Marketplace](https://n8n.io/creators/)
+
+---
+
+Open to advisory, consulting, and collaboration on AI automation, agentic systems, and governance-aware AI for regulated industries — [nenedesign@gmail.com](mailto:nenedesign@gmail.com)
