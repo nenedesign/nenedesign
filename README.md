@@ -13,7 +13,7 @@ I'm currently focused on governance-aware AI for regulated industries (financial
 ## Featured Work
 
 ### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
-Production-ready automation workflows: agentic RAG, AI agents, and developer utilities — importable directly into n8n.
+Production-ready automation workflows: agentic RAG, AI agents, and developer utilities; all importable directly into n8n.
 
 | Workflow | Category | Level | Canvas |
 |----------|----------|-------|--------|
@@ -27,7 +27,7 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 
 ## System Architecture
 
-Production customer support agent — 50 nodes, async webhook intake, multi-KB RAG with web search fallback, confidence-gated routing, and full audit trail.
+Production customer support agent with 50 nodes, async webhook intake, multi-KB RAG with web search fallback, confidence-gated routing, and full audit trail.
 
 ```mermaid
 flowchart LR
