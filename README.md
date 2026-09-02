@@ -65,4 +65,4 @@ flowchart LR
 
 ---
 
-Open to advisory, consulting, and collaboration on AI automation, agentic systems, and governance-aware AI for regulated industries — [nenedesign@gmail.com](mailto:nenedesign@gmail.com)
+Open to advisory, consulting, and collaboration on AI automation, agentic systems, and governance-aware AI for regulated industries — [connect on LinkedIn](https://www.linkedin.com/in/nevilleko/)
