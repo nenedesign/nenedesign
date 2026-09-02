@@ -1,6 +1,6 @@
 # Neville Ko — AI Product Manager & Builder
 
-Head of Product & Experience at [Distinct AI](https://www.distinct.ai/) · [Official n8n Creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) · 20 years shipping 0-to-1 products
+Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) · [Official n8n Creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) · 20 years shipping 0-to-1 products
 
 I architect and ship production-grade AI automation systems — agentic RAG pipelines, multi-agent orchestration, and privacy-first local inference. Currently focused on governance-aware AI for regulated industries (financial services, healthcare).
 
