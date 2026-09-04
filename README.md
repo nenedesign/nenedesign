@@ -24,6 +24,11 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 | [Seed Supabase from Notion](https://github.com/nenedesign/n8n-workflows/tree/main/rag/seed-supabase-from-notion) | RAG | Intermediate | [View](https://github.com/nenedesign/n8n-workflows/blob/main/rag/seed-supabase-from-notion/preview.png) |
 | [AI Daily Briefing Bot](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-daily-briefing-bot) | Utilities | Beginner | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/ai-daily-briefing-bot/preview.png) |
 | [Claude to Slack MCP Test](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/claude-to-slack-mcp-test) | Utilities | Beginner | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/claude-to-slack-mcp-test/preview.png) |
+| [URL & Article Summarizer to Slack](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/url-article-summarizer-to-slack) | Utilities | Beginner | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/url-article-summarizer-to-slack/preview.png) |
+| [API Health Monitor](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/api-health-monitor) | Utilities | Beginner | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/api-health-monitor/preview.png) |
+| [RSS Feed to Slack Alert](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/rss-feed-to-slack-alert) | Utilities | Beginner | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/rss-feed-to-slack-alert/preview.png) |
+| [GitHub PR to Slack Notifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/github-pr-to-slack-notifier) | Utilities | Beginner | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/github-pr-to-slack-notifier/preview.png) |
+| [AI Webhook Classifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-webhook-classifier) | Utilities | Intermediate | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/ai-webhook-classifier/preview.png) |
 
 ---
 
