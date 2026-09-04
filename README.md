@@ -6,7 +6,7 @@
 
 I'm Neville Ko, currently Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) with a published template on the n8n marketplace (more templates pending n8n approval). This repo contains production-ready AI automation workflow templates I've built for agentic RAG pipelines, AI agents, multi-agent orchestration, privacy-first local inference, and developer utilities. All workflows are designed to be imported directly into n8n and adapted for real use cases.
 
-I'm currently focused on governance-aware AI for regulated industries (financial services, healthcare).
+I'm currently focused on governance-aware AI for enterprise applications, prioritizing security, regulatory compliance (GDPR, SOC 2), and data privacy across regulated industries like financial services and healthcare.
 
 ---
 
