@@ -1,18 +1,8 @@
 # Neville Ko — AI Product Manager & Builder
 
-
-
-> AI Product Manager, Builder & UX Designer — 20 years shipping 0-to-1 products
-
 I'm Neville Ko, Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) with published templates on the n8n marketplace. I have 20 years of experience shipping 0-to-1 products and I'm now building production-grade AI automation for regulated industries like financial services and healthcare.
 
 I specialize in agentic RAG systems, multi-agent orchestration, and governance-aware AI mapped to real compliance frameworks: SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10. My work is production-ready, privacy-first, and built with audit trails, least-privilege tooling, and human-in-the-loop controls.
-
-> Official n8n creator with templates published on the [n8n marketplace](https://n8n.io/creators/). Production workflows on GitHub covering agentic RAG, vector databases, AI agents, and developer utilities.
-
-## Currently
-
-Building a governance-aware AI workflow series for regulated industries including financial services, healthcare, and legal. Each workflow maps to a real compliance framework: SEC/FINRA and OSFI E-23 for model alignment, ISO 27001 for access control, SOC 2 and PCI-DSS v4.0 for data security.
 
 ---
 
@@ -35,6 +25,12 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 | [RSS Feed to Slack Alert](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/rss-feed-to-slack-alert) | Utilities | Beginner | Topic & brand monitoring | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/rss-feed-to-slack-alert/preview.png) |
 | [GitHub PR to Slack Notifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/github-pr-to-slack-notifier) | Utilities | Beginner | Engineering team PR visibility | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/github-pr-to-slack-notifier/preview.png) |
 | [AI Webhook Classifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-webhook-classifier) | Utilities | Intermediate | Support triage & content routing | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/ai-webhook-classifier/preview.png) |
+
+---
+
+## Currently
+
+Building a governance-aware AI workflow series for regulated industries including financial services, healthcare, and legal. Each workflow maps to a real compliance framework: SEC/FINRA and OSFI E-23 for model alignment, ISO 27001 for access control, SOC 2 and PCI-DSS v4.0 for data security.
 
 ---
 
