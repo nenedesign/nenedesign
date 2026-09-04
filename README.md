@@ -4,9 +4,15 @@
 
 > AI Product Manager, Builder & UX Designer — 20 years shipping 0-to-1 products
 
-I'm Neville Ko, currently Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) with a published template on the n8n marketplace (more templates pending n8n approval). This repo contains production-ready AI automation workflow templates I've built for agentic RAG pipelines, AI agents, multi-agent orchestration, privacy-first local inference, and developer utilities. All workflows are designed to be imported directly into n8n and adapted for real use cases.
+I'm Neville Ko, Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) with published templates on the n8n marketplace. I have 20 years of experience shipping 0-to-1 products and I'm now building production-grade AI automation for regulated industries like financial services and healthcare.
 
-I'm currently focused on governance-aware AI for enterprise applications, prioritizing security, regulatory compliance (GDPR, SOC 2), and data privacy across regulated industries like financial services and healthcare.
+I specialize in agentic RAG systems, multi-agent orchestration, and governance-aware AI mapped to real compliance frameworks: SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10. My work is production-ready, privacy-first, and built with audit trails, least-privilege tooling, and human-in-the-loop controls.
+
+> Official n8n creator with templates published on the [n8n marketplace](https://n8n.io/creators/). Production workflows on GitHub covering agentic RAG, vector databases, AI agents, and developer utilities.
+
+## Currently
+
+Building a governance-aware AI workflow series for regulated industries including financial services, healthcare, and legal. Each workflow maps to a real compliance framework: SEC/FINRA and OSFI E-23 for model alignment, ISO 27001 for access control, SOC 2 and PCI-DSS v4.0 for data security.
 
 ---
 
@@ -32,6 +38,15 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 
 ---
 
+## Research Focus
+
+- **Multi-Agent Orchestration** — modality-agnostic, agent-to-agent workflows focused on security and privacy
+- **Privacy-First Local AI** — on-device open-weight models for sensitive financial and healthcare data
+- **Context & Memory Management** — hybrid memory retrieval for context-aware personalization
+- **Hybrid Inference Routing** — optimizing token efficiency, latency, and cost across cloud and local
+
+---
+
 ## System Architecture
 
 Production customer support agent with 50 nodes, async webhook intake, multi-KB RAG with web search fallback, confidence-gated routing, and full audit trail.
@@ -48,15 +63,6 @@ flowchart LR
     H -- High --> I["Auto-Reply\nSlack · Email · Webhook"]
     H -- Low --> J["Human Escalation\n+ Audit Log"]
 ```
-
----
-
-## Research Focus
-
-- **Multi-Agent Orchestration** — modality-agnostic, agent-to-agent workflows focused on security and privacy
-- **Privacy-First Local AI** — on-device open-weight models for sensitive financial and healthcare data
-- **Context & Memory Management** — hybrid memory retrieval for context-aware personalization
-- **Hybrid Inference Routing** — optimizing token efficiency, latency, and cost across cloud and local
 
 ---
 
