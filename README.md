@@ -42,6 +42,20 @@ Practical guardrails for deploying AI in payment card environments, implementing
 
 ---
 
+### [AI Governance: SOC 2 Type II](https://github.com/nenedesign/ai-governance-soc2)
+
+![SOC 2 Type II](https://img.shields.io/badge/SOC_2_Type_II-006CB8?style=flat&logoColor=white)
+
+Audit infrastructure for LLM deployments in SOC 2 Type II environments: tamper-evident interaction logging, automated retention enforcement, and an AI system evidence template for auditors.
+
+| Artifact | Type | Coverage |
+|----------|------|----------|
+| [Audit Log Pipeline](https://github.com/nenedesign/ai-governance-soc2/blob/main/audit-log-pipeline/workflow.json) | n8n workflow | Webhook-triggered, SHA-256 integrity hash, append-only Supabase insert |
+| [Retention Enforcer](https://github.com/nenedesign/ai-governance-soc2/blob/main/retention-enforcer/workflow.json) | n8n workflow | Daily schedule, flags entries expired after 90 days |
+| [SOC 2 AI Evidence Template](https://github.com/nenedesign/ai-governance-soc2/blob/main/soc2-ai-evidence-template.md) | Document template | Structured documentation for AI systems under SOC 2 audit |
+
+---
+
 ### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
