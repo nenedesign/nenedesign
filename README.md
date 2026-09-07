@@ -8,9 +8,9 @@ I specialize in agentic RAG systems, multi-agent orchestration, and governance-a
 
 ## Featured Work
 
-![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM_Top_10-000000?style=flat&logoColor=white) ![PCI-DSS v4.0](https://img.shields.io/badge/PCI--DSS_v4.0-003087?style=flat&logoColor=white) ![SOC 2 Type II](https://img.shields.io/badge/SOC_2_Type_II-555555?style=flat&logoColor=white) ![SEC/FINRA](https://img.shields.io/badge/SEC%2FFINRA-1a3a5c?style=flat&logoColor=white) ![OSFI E-23](https://img.shields.io/badge/OSFI_E--23-CC0000?style=flat&logoColor=white)
-
 ### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance-owasp10)
+
+![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM_Top_10-000000?style=flat&logoColor=white)
 
 Working implementations of all 10 OWASP LLM risks for financial services, insurance, and legal tech: n8n workflows, system prompt library, and governance checklists.
 
@@ -31,6 +31,8 @@ Working implementations of all 10 OWASP LLM risks for financial services, insura
 
 ### [AI Governance: PCI-DSS v4.0](https://github.com/nenedesign/ai-governance-pci-dss)
 
+![PCI-DSS v4.0](https://img.shields.io/badge/PCI--DSS_v4.0-003087?style=flat&logoColor=white)
+
 Practical guardrails for deploying AI in payment card environments, implementing PCI-DSS v4.0 at the inference layer.
 
 | Artifact | Type | Coverage |
@@ -41,6 +43,8 @@ Practical guardrails for deploying AI in payment card environments, implementing
 ---
 
 ### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 
 Production-ready automation workflows: agentic RAG, AI agents, and developer utilities; all importable directly into n8n.
 
