@@ -56,6 +56,21 @@ Audit infrastructure for LLM deployments in SOC 2 Type II environments: tamper-e
 
 ---
 
+### [AI Governance: OSFI E-23 Model Risk Management](https://github.com/nenedesign/ai-governance-osfi-e23)
+
+![OSFI E-23](https://img.shields.io/badge/OSFI_E--23-CC0000?style=flat&logoColor=white)
+
+Model risk governance artifacts for LLM deployments in federally regulated Canadian financial institutions, aligned with OSFI Guideline E-23 (published September 2025, effective May 2027).
+
+| Artifact | Type | Coverage |
+|----------|------|----------|
+| [Model Intake Classifier](https://github.com/nenedesign/ai-governance-osfi-e23/blob/main/workflows/model-intake-classifier/workflow.json) | n8n workflow | Webhook-triggered risk tier assignment per E-23 C.2 (quantitative + qualitative scoring) |
+| [LLM Model Card Template](https://github.com/nenedesign/ai-governance-osfi-e23/blob/main/model-card/llm-model-card-template.md) | Document template | Full model inventory tracking per E-23 Appendix 1 and D.2 |
+| [Model Risk Assessment Checklist](https://github.com/nenedesign/ai-governance-osfi-e23/blob/main/governance/model-risk-assessment.md) | Governance document | Scored risk factor assessment per E-23 C.2 and C.3 |
+| [Third-Party LLM Vendor Review](https://github.com/nenedesign/ai-governance-osfi-e23/blob/main/governance/third-party-llm-review.md) | Governance document | Standalone external model assessment per E-23 C.1 |
+
+---
+
 ### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
