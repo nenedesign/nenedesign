@@ -8,22 +8,33 @@ I specialize in agentic RAG systems, multi-agent orchestration, and governance-a
 
 ## Featured Work
 
-### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance)
+### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance-owasp10)
 
 Working implementations of all 10 OWASP LLM risks for financial services, insurance, and legal tech: n8n workflows, system prompt library, and governance checklists.
 
 | Risk | Artifact | Coverage |
 |------|----------|----------|
-| [LLM01 Prompt Injection](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm01-prompt-injection-scanner) | Workflow + Prompt | 21-pattern scanner, risk-score gating |
-| [LLM02 Sensitive Info Disclosure](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm02-pii-detector) | Workflow + Prompt | 7-category PII redaction |
-| [LLM03 Supply Chain](https://github.com/nenedesign/ai-governance/blob/main/governance/llm03-model-intake-assessment.md) | Governance doc | Model intake assessment checklist |
-| [LLM04 Data Poisoning](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm04-llm08-rag-security-pipeline) | Workflow | RAG ingestion validation + allowlist |
-| [LLM05 Improper Output Handling](https://github.com/nenedesign/ai-governance/blob/main/prompt-library/llm05-output-sanitization.md) | Prompt | Output sanitization system prompt |
-| [LLM06 Excessive Agency](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm06-hitl-approval-gate) | Workflow + Prompt | Human-in-the-loop approval gate |
-| [LLM07 System Prompt Leakage](https://github.com/nenedesign/ai-governance/blob/main/governance/llm07-system-prompt-audit.md) | Governance + Prompt | Audit framework + hardened prompt |
-| [LLM08 Vector/Embedding Weaknesses](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm04-llm08-rag-security-pipeline) | Workflow | Sanitization + audit metadata on upsert |
-| [LLM09 Misinformation](https://github.com/nenedesign/ai-governance/blob/main/prompt-library/llm09-grounding-uncertainty.md) | Prompt | Grounding and uncertainty disclosure |
-| [LLM10 Unbounded Consumption](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm10-rate-limiter) | Workflow | Sliding-window rate limiter |
+| [LLM01 Prompt Injection](https://github.com/nenedesign/ai-governance-owasp10/tree/main/workflows/llm01-prompt-injection-scanner) | Workflow + Prompt | 21-pattern scanner, risk-score gating |
+| [LLM02 Sensitive Info Disclosure](https://github.com/nenedesign/ai-governance-owasp10/tree/main/workflows/llm02-pii-detector) | Workflow + Prompt | 7-category PII redaction |
+| [LLM03 Supply Chain](https://github.com/nenedesign/ai-governance-owasp10/blob/main/governance/llm03-model-intake-assessment.md) | Governance doc | Model intake assessment checklist |
+| [LLM04 Data Poisoning](https://github.com/nenedesign/ai-governance-owasp10/tree/main/workflows/llm04-llm08-rag-security-pipeline) | Workflow | RAG ingestion validation + allowlist |
+| [LLM05 Improper Output Handling](https://github.com/nenedesign/ai-governance-owasp10/blob/main/prompt-library/llm05-output-sanitization.md) | Prompt | Output sanitization system prompt |
+| [LLM06 Excessive Agency](https://github.com/nenedesign/ai-governance-owasp10/tree/main/workflows/llm06-hitl-approval-gate) | Workflow + Prompt | Human-in-the-loop approval gate |
+| [LLM07 System Prompt Leakage](https://github.com/nenedesign/ai-governance-owasp10/blob/main/governance/llm07-system-prompt-audit.md) | Governance + Prompt | Audit framework + hardened prompt |
+| [LLM08 Vector/Embedding Weaknesses](https://github.com/nenedesign/ai-governance-owasp10/tree/main/workflows/llm04-llm08-rag-security-pipeline) | Workflow | Sanitization + audit metadata on upsert |
+| [LLM09 Misinformation](https://github.com/nenedesign/ai-governance-owasp10/blob/main/prompt-library/llm09-grounding-uncertainty.md) | Prompt | Grounding and uncertainty disclosure |
+| [LLM10 Unbounded Consumption](https://github.com/nenedesign/ai-governance-owasp10/tree/main/workflows/llm10-rate-limiter) | Workflow | Sliding-window rate limiter |
+
+---
+
+### [AI Governance: PCI-DSS v4.0](https://github.com/nenedesign/ai-governance-pci-dss)
+
+Practical guardrails for deploying AI in payment card environments, implementing PCI-DSS v4.0 at the inference layer.
+
+| Artifact | Type | Coverage |
+|----------|------|----------|
+| [Cardholder Data Detector](https://github.com/nenedesign/ai-governance-pci-dss/blob/main/workflow.json) | n8n workflow | Pre-inference PAN/CVV/expiry masking across all 4 card networks |
+| [PCI Scope Boundary System Prompt](https://github.com/nenedesign/ai-governance-pci-dss/blob/main/pci-scope-boundary-prompt.md) | System prompt | Hard prohibitions, redirect instructions, masked input handling |
 
 ---
 
