@@ -8,6 +8,8 @@ I specialize in agentic RAG systems, multi-agent orchestration, and governance-a
 
 ## Featured Work
 
+![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM_Top_10-000000?style=flat&logoColor=white) ![PCI-DSS v4.0](https://img.shields.io/badge/PCI--DSS_v4.0-003087?style=flat&logoColor=white) ![SOC 2 Type II](https://img.shields.io/badge/SOC_2_Type_II-555555?style=flat&logoColor=white) ![SEC/FINRA](https://img.shields.io/badge/SEC%2FFINRA-1a3a5c?style=flat&logoColor=white) ![OSFI E-23](https://img.shields.io/badge/OSFI_E--23-CC0000?style=flat&logoColor=white)
+
 ### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance-owasp10)
 
 Working implementations of all 10 OWASP LLM risks for financial services, insurance, and legal tech: n8n workflows, system prompt library, and governance checklists.
@@ -68,30 +70,16 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 
 ---
 
-## System Architecture
-
-Production customer support agent with 50 nodes, async webhook intake, multi-KB RAG with web search fallback, confidence-gated routing, and full audit trail.
-
-```mermaid
-flowchart LR
-    A["Inbound Request\nWebhook · Slack · Email"] --> B["Auth · Rate Limit · PII Scrub"]
-    B --> C["202 Accepted"]
-    B --> D["AI Support Agent"]
-    D --> E[("Primary KB")]
-    D --> F[("Reference KB")]
-    D --> G["Web Search Fallback"]
-    E & F & G --> H{"Confidence\nScore"}
-    H -- High --> I["Auto-Reply\nSlack · Email · Webhook"]
-    H -- Low --> J["Human Escalation\n+ Audit Log"]
-```
-
----
-
 ## Stack
 
-**Automation and Agents:** `n8n` · `Claude Code` · `MCP Servers` · `LangChain` · `Google ADK`  
-**Inference and Models:** `Ollama` · `Docker` · `OpenRouter` · `Claude API` · `Gemini API` · `Perplexity API`  
-**Data and Storage:** `Supabase` · `Postgres` · `Notion` · `Obsidian` · `Open WebUI`
+**Automation and Agents**  
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white) ![MCP Servers](https://img.shields.io/badge/MCP_Servers-D97757?style=flat&logo=anthropic&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white) ![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat&logo=google&logoColor=white)
+
+**Inference and Models**  
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![OpenRouter](https://img.shields.io/badge/OpenRouter-6467F2?style=flat&logoColor=white) ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white) ![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat&logo=googlegemini&logoColor=white) ![Perplexity API](https://img.shields.io/badge/Perplexity_API-20808D?style=flat&logoColor=white)
+
+**Data and Storage**  
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat&logo=postgresql&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white) ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white) ![Open WebUI](https://img.shields.io/badge/Open_WebUI-000000?style=flat&logoColor=white)
 
 ---
 
