@@ -8,38 +8,52 @@ I specialize in agentic RAG systems, multi-agent orchestration, and governance-a
 
 ## Featured Work
 
-### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
-Production-ready automation workflows: agentic RAG, AI agents, and developer utilities; all importable directly into n8n.
+### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance)
 
-| Workflow | Category | Level | Use Case | Canvas |
-|----------|----------|-------|----------|--------|
-| [Autonomous customer support agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/autonomous-customer-support-agent) | AI Agents | Advanced | SaaS & enterprise customer support | [View](https://github.com/nenedesign/n8n-workflows/blob/main/ai-agents/autonomous-customer-support-agent/preview.png) |
-| [Multi-KB agentic RAG assistant](https://github.com/nenedesign/n8n-workflows/tree/main/rag/multi-kb-agentic-rag-assistant) | RAG | Advanced | Internal knowledge Q&A for teams | [View](https://github.com/nenedesign/n8n-workflows/blob/main/rag/multi-kb-agentic-rag-assistant/preview.png) |
-| [Slack Gemini Agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/slack-gemini-agent) | AI Agents | Intermediate | AI assistant for Slack workspaces | [View](https://github.com/nenedesign/n8n-workflows/blob/main/ai-agents/slack-gemini-agent/preview.png) |
-| [Gmail AI Triage](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/gmail-ai-triage) | AI Agents | Intermediate | High-volume inbox management | [View](https://github.com/nenedesign/n8n-workflows/blob/main/ai-agents/gmail-ai-triage/preview.png) |
-| [Seed a Supabase AI knowledge base from Notion](https://github.com/nenedesign/n8n-workflows/tree/main/rag/seed-supabase-from-notion) | RAG | Intermediate | RAG pipeline ingestion from Notion | [View](https://github.com/nenedesign/n8n-workflows/blob/main/rag/seed-supabase-from-notion/preview.png) |
-| [AI Daily Briefing Bot](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-daily-briefing-bot) | Utilities | Beginner | Daily news digest for teams | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/ai-daily-briefing-bot/preview.png) |
-| [Claude to Slack MCP Connection Test](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/claude-to-slack-mcp-test) | Utilities | Beginner | Developer MCP integration testing | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/claude-to-slack-mcp-test/preview.png) |
-| [URL & Article Summarizer to Slack](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/url-article-summarizer-to-slack) | Utilities | Beginner | Content research & curation | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/url-article-summarizer-to-slack/preview.png) |
-| [API Health Monitor](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/api-health-monitor) | Utilities | Beginner | DevOps uptime monitoring | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/api-health-monitor/preview.png) |
-| [RSS Feed to Slack Alert](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/rss-feed-to-slack-alert) | Utilities | Beginner | Topic & brand monitoring | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/rss-feed-to-slack-alert/preview.png) |
-| [GitHub PR to Slack Notifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/github-pr-to-slack-notifier) | Utilities | Beginner | Engineering team PR visibility | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/github-pr-to-slack-notifier/preview.png) |
-| [AI Webhook Classifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-webhook-classifier) | Utilities | Intermediate | Support triage & content routing | [View](https://github.com/nenedesign/n8n-workflows/blob/main/utilities/ai-webhook-classifier/preview.png) |
+Working implementations of all 10 OWASP LLM risks for financial services, insurance, and legal tech: n8n workflows, system prompt library, and governance checklists.
+
+| Risk | Artifact | Coverage |
+|------|----------|----------|
+| [LLM01 Prompt Injection](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm01-prompt-injection-scanner) | Workflow + Prompt | 21-pattern scanner, risk-score gating |
+| [LLM02 Sensitive Info Disclosure](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm02-pii-detector) | Workflow + Prompt | 7-category PII redaction |
+| [LLM03 Supply Chain](https://github.com/nenedesign/ai-governance/blob/main/governance/llm03-model-intake-assessment.md) | Governance doc | Model intake assessment checklist |
+| [LLM04 Data Poisoning](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm04-llm08-rag-security-pipeline) | Workflow | RAG ingestion validation + allowlist |
+| [LLM05 Improper Output Handling](https://github.com/nenedesign/ai-governance/blob/main/prompt-library/llm05-output-sanitization.md) | Prompt | Output sanitization system prompt |
+| [LLM06 Excessive Agency](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm06-hitl-approval-gate) | Workflow + Prompt | Human-in-the-loop approval gate |
+| [LLM07 System Prompt Leakage](https://github.com/nenedesign/ai-governance/blob/main/governance/llm07-system-prompt-audit.md) | Governance + Prompt | Audit framework + hardened prompt |
+| [LLM08 Vector/Embedding Weaknesses](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm04-llm08-rag-security-pipeline) | Workflow | Sanitization + audit metadata on upsert |
+| [LLM09 Misinformation](https://github.com/nenedesign/ai-governance/blob/main/prompt-library/llm09-grounding-uncertainty.md) | Prompt | Grounding and uncertainty disclosure |
+| [LLM10 Unbounded Consumption](https://github.com/nenedesign/ai-governance/tree/main/workflows/llm10-rate-limiter) | Workflow | Sliding-window rate limiter |
 
 ---
 
-## Currently
+### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
 
-Building a governance-aware AI workflow series for regulated industries including financial services, healthcare, and legal. Each workflow maps to a real compliance framework: SEC/FINRA and OSFI E-23 for model alignment, ISO 27001 for access control, SOC 2 and PCI-DSS v4.0 for data security.
+Production-ready automation workflows: agentic RAG, AI agents, and developer utilities; all importable directly into n8n.
+
+| Workflow | Category | Level | Use Case |
+|----------|----------|-------|----------|
+| [Autonomous customer support agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/autonomous-customer-support-agent) | AI Agents | Advanced | SaaS and enterprise customer support |
+| [Multi-KB agentic RAG assistant](https://github.com/nenedesign/n8n-workflows/tree/main/rag/multi-kb-agentic-rag-assistant) | RAG | Advanced | Internal knowledge Q&A for teams |
+| [Slack Gemini Agent](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/slack-gemini-agent) | AI Agents | Intermediate | AI assistant for Slack workspaces |
+| [Gmail AI Triage](https://github.com/nenedesign/n8n-workflows/tree/main/ai-agents/gmail-ai-triage) | AI Agents | Intermediate | High-volume inbox management |
+| [Seed a Supabase AI knowledge base from Notion](https://github.com/nenedesign/n8n-workflows/tree/main/rag/seed-supabase-from-notion) | RAG | Intermediate | RAG pipeline ingestion from Notion |
+| [AI Daily Briefing Bot](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-daily-briefing-bot) | Utilities | Beginner | Daily news digest for teams |
+| [Claude to Slack MCP Connection Test](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/claude-to-slack-mcp-test) | Utilities | Beginner | Developer MCP integration testing |
+| [URL and Article Summarizer to Slack](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/url-article-summarizer-to-slack) | Utilities | Beginner | Content research and curation |
+| [API Health Monitor](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/api-health-monitor) | Utilities | Beginner | DevOps uptime monitoring |
+| [RSS Feed to Slack Alert](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/rss-feed-to-slack-alert) | Utilities | Beginner | Topic and brand monitoring |
+| [GitHub PR to Slack Notifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/github-pr-to-slack-notifier) | Utilities | Beginner | Engineering team PR visibility |
+| [AI Webhook Classifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-webhook-classifier) | Utilities | Intermediate | Support triage and content routing |
 
 ---
 
 ## Research Focus
 
-- **Multi-Agent Orchestration** — modality-agnostic, agent-to-agent workflows focused on security and privacy
-- **Privacy-First Local AI** — on-device open-weight models for sensitive financial and healthcare data
-- **Context & Memory Management** — hybrid memory retrieval for context-aware personalization
-- **Hybrid Inference Routing** — optimizing token efficiency, latency, and cost across cloud and local
+- **Multi-Agent Orchestration:** modality-agnostic, agent-to-agent workflows focused on security and privacy
+- **Privacy-First Local AI:** on-device open-weight models for sensitive financial and healthcare data
+- **Context and Memory Management:** hybrid memory retrieval for context-aware personalization
+- **Hybrid Inference Routing:** optimizing token efficiency, latency, and cost across cloud and local
 
 ---
 
@@ -64,13 +78,13 @@ flowchart LR
 
 ## Stack
 
-**Automation & Agents:** `n8n` · `Claude Code` · `MCP Servers` · `LangChain` · `Google ADK`  
-**Inference & Models:** `Ollama` · `Docker` · `OpenRouter` · `Claude API` · `Gemini API` · `Perplexity API`  
-**Data & Storage:** `Supabase` · `Postgres` · `Notion` · `Obsidian` · `Open WebUI`
+**Automation and Agents:** `n8n` · `Claude Code` · `MCP Servers` · `LangChain` · `Google ADK`  
+**Inference and Models:** `Ollama` · `Docker` · `OpenRouter` · `Claude API` · `Gemini API` · `Perplexity API`  
+**Data and Storage:** `Supabase` · `Postgres` · `Notion` · `Obsidian` · `Open WebUI`
 
 ---
 
-**Links:** [Portfolio](https://www.fromus.ca/ai-builds) · [LinkedIn](https://www.linkedin.com/in/nevilleko/) · [n8n Official Creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/) · [n8n Marketplace](https://n8n.io/creators/)
+**Links:** [Portfolio](https://www.fromus.ca/ai-builds) · [LinkedIn](https://www.linkedin.com/in/nevilleko/) · [n8n Official Creator](https://n8n.io/workflows/18427-seed-a-supabase-ai-knowledge-base-from-notion-with-ollama-embeddings/)
 
 ---
 
