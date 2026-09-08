@@ -71,6 +71,22 @@ Model risk governance artifacts for LLM deployments in federally regulated Canad
 
 ---
 
+### [AI Governance: SEC/FINRA and CIRO Investment Advice Guardrails](https://github.com/nenedesign/ai-governance-sec-finra)
+
+![SEC/FINRA + CIRO](https://img.shields.io/badge/SEC%2FFINRA_%2B_CIRO-1A1A2E?style=flat&logoColor=white)
+
+Prompt library and output scanner for AI deployments in cross-border investment advice environments. Covers both CIRO (Canada) and SEC/FINRA (United States) for firms operating across both jurisdictions.
+
+| Artifact | Type | Coverage |
+|----------|------|----------|
+| [Suitability Boundary Prompt](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/prompt-library/finra-ciro-01-suitability-boundary.md) | System prompt | Constrains AI to general information; routes personalized advice to registered representatives (CIRO 3400, Reg BI) |
+| [Required Disclaimers Prompt](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/prompt-library/finra-ciro-02-required-disclaimers.md) | System prompt | Mandates risk disclosures, AI identification, and past-performance language (FINRA 2210, CIRO) |
+| [Prohibited Claims Prompt](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/prompt-library/finra-ciro-03-prohibited-claims.md) | System prompt | Blocks return guarantees, performance predictions, and exaggerated claims (FINRA 2210(d), CIRO fair dealing) |
+| [Supervision Alignment Prompt](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/prompt-library/finra-ciro-04-supervision-alignment.md) | System prompt | Flags AI outputs requiring principal review before client delivery (CIRO 2900, FINRA 3110) |
+| [Investment Recommendation Scanner](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/workflows/rec-scanner/workflow.json) | n8n workflow | Scans AI-generated text for 5 advice-boundary violation types with rule citations and remediation actions |
+
+---
+
 ### [n8n Workflow Templates](https://github.com/nenedesign/n8n-workflows)
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
