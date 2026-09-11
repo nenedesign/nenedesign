@@ -8,6 +8,25 @@ I specialize in agentic RAG systems, multi-agent orchestration, conversational A
 
 ## Featured Work
 
+### [Conversational AI Patterns](https://github.com/nenedesign/conversational-ai-patterns)
+
+![Conversational AI](https://img.shields.io/badge/Conversational_AI-1B1B1B?style=flat&logoColor=white)
+
+A practitioner's framework for designing trustworthy conversational AI: 11 design patterns, research grounding from 30+ industry and academic sources, and working prototypes demonstrating each pattern in context.
+
+| Pattern | Core question |
+|---------|--------------|
+| [Proactive alerts](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/01-proactive-alerts.md) | How does the agent surface issues before the user asks? |
+| [Trust calibration](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/04-trust-calibration.md) | How does the agent express confidence, including when it is uncertain? |
+| [Multi-agent handoff](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/06-multi-agent-handoff.md) | How do agents transfer context without losing the user? |
+| [Capability boundaries](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/07-capability-boundaries.md) | How does an agent signal what it cannot or should not do? |
+| [Human-in-the-loop](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/08-human-in-the-loop.md) | How does the agent require human approval before consequential actions? |
+| [Knowledge grounding](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/11-knowledge-grounding.md) | How does the agent answer from verified sources, not model memory? |
+
+Research grounded in: Google PAIR, Microsoft HAX + Amershi et al. (CHI 2019), Anthropic, OpenAI, Nielsen Norman Group, NIST AI RMF, EU AI Act, ISO 42001, and 10+ peer-reviewed papers from CHI, ACL, and ACM CUI.
+
+---
+
 ### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance-owasp10)
 
 ![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM_Top_10-000000?style=flat&logoColor=white)
@@ -107,25 +126,6 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 | [RSS Feed to Slack Alert](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/rss-feed-to-slack-alert) | Utilities | Beginner | Topic and brand monitoring |
 | [GitHub PR to Slack Notifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/github-pr-to-slack-notifier) | Utilities | Beginner | Engineering team PR visibility |
 | [AI Webhook Classifier](https://github.com/nenedesign/n8n-workflows/tree/main/utilities/ai-webhook-classifier) | Utilities | Intermediate | Support triage and content routing |
-
----
-
-### [Conversational AI Patterns](https://github.com/nenedesign/conversational-ai-patterns)
-
-![Conversational AI](https://img.shields.io/badge/Conversational_AI-1B1B1B?style=flat&logoColor=white)
-
-A practitioner's framework for designing trustworthy conversational AI: 11 design patterns, research grounding from 30+ industry and academic sources, and working prototypes demonstrating each pattern in context.
-
-| Pattern | Core question |
-|---------|--------------|
-| [Proactive alerts](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/01-proactive-alerts.md) | How does the agent surface issues before the user asks? |
-| [Trust calibration](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/04-trust-calibration.md) | How does the agent express confidence, including when it is uncertain? |
-| [Multi-agent handoff](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/06-multi-agent-handoff.md) | How do agents transfer context without losing the user? |
-| [Capability boundaries](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/07-capability-boundaries.md) | How does an agent signal what it cannot or should not do? |
-| [Human-in-the-loop](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/08-human-in-the-loop.md) | How does the agent require human approval before consequential actions? |
-| [Knowledge grounding](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/11-knowledge-grounding.md) | How does the agent answer from verified sources, not model memory? |
-
-Research grounded in: Google PAIR, Microsoft HAX + Amershi et al. (CHI 2019), Anthropic, OpenAI, Nielsen Norman Group, NIST AI RMF, EU AI Act, ISO 42001, and 10+ peer-reviewed papers from CHI, ACL, and ACM CUI.
 
 ---
 
