@@ -12,18 +12,21 @@ I specialize in agentic RAG systems, multi-agent orchestration, conversational A
 
 ![Conversational AI](https://img.shields.io/badge/Conversational_AI-1B1B1B?style=flat&logoColor=white)
 
-A practitioner's framework for designing trustworthy conversational AI: 11 design patterns, research grounding from 30+ industry and academic sources, and working prototypes demonstrating each pattern in context.
+A practitioner's framework for designing trustworthy conversational AI: 17 design patterns, research grounding from 46 industry and academic sources, and working prototypes demonstrating each pattern in context.
 
 | Pattern | Core question |
 |---------|--------------|
 | [Proactive alerts](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/01-proactive-alerts.md) | How does the agent surface issues before the user asks? |
 | [Trust calibration](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/04-trust-calibration.md) | How does the agent express confidence, including when it is uncertain? |
 | [Multi-agent handoff](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/06-multi-agent-handoff.md) | How do agents transfer context without losing the user? |
-| [Capability boundaries](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/07-capability-boundaries.md) | How does an agent signal what it cannot or should not do? |
 | [Human-in-the-loop](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/08-human-in-the-loop.md) | How does the agent require human approval before consequential actions? |
 | [Knowledge grounding](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/11-knowledge-grounding.md) | How does the agent answer from verified sources, not model memory? |
+| [Digression handling](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/12-digression-handling.md) | How does the agent maintain context when the user goes off-topic mid-flow? |
+| [Testing and evaluation](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/13-testing-and-evaluation.md) | How does the team validate agent behavior before it reaches production? |
+| [Conversation summarization](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/14-conversation-summarization.md) | How does the agent capture what happened for handoffs, audit, and context reload? |
+| [Outcome measurement](https://github.com/nenedesign/conversational-ai-patterns/blob/main/patterns/17-outcome-measurement.md) | How does the team know whether the agent actually resolved what the user needed? |
 
-Research grounded in: Google PAIR, Microsoft HAX + Amershi et al. (CHI 2019), Anthropic, OpenAI, Nielsen Norman Group, NIST AI RMF, EU AI Act, ISO 42001, and 10+ peer-reviewed papers from CHI, ACL, and ACM CUI.
+Research grounded in: Google PAIR, Microsoft HAX + Amershi et al. (CHI 2019), Anthropic, OpenAI, Nielsen Norman Group, NIST AI RMF, EU AI Act, ISO 42001, Google Conversational Agents, Jurafsky & Martin, and 15+ peer-reviewed papers from CHI, ACL, and ACM CUI.
 
 ---
 
