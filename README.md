@@ -2,7 +2,7 @@
 
 I'm Neville Ko, Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/creators/nene/) with published templates on the n8n marketplace. I have 20 years of experience shipping 0-to-1 products and I'm now building production-grade AI automation for regulated industries like financial services and healthcare.
 
-I specialize in agentic RAG systems, multi-agent orchestration, conversational AI design, and governance-aware AI mapped to real compliance frameworks: SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10. My work is production-ready, privacy-first, and built with audit trails, least-privilege tooling, and human-in-the-loop controls.
+I specialize in **agentic RAG systems, multi-agent orchestration, conversational AI design, and governance-aware AI mapped to real compliance frameworks: SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10**. My work is production-ready, privacy-first, and built with audit trails, least-privilege tooling, and human-in-the-loop controls.
 
 Disclaimer: This is a personal account. Content are my views and do not necessarily represent the views of my current or former employers.
 
