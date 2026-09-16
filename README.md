@@ -10,6 +10,22 @@ Disclaimer: This is a personal account. Content are my views and do not necessar
 
 ## Featured Work
 
+### [Conversational Operations Runtime](https://github.com/nenedesign/conversational-ops-runtime)
+
+![Governed AI Runtime](https://img.shields.io/badge/Governed_AI_Runtime-1A1A2E?style=flat&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+A self-hostable governed action runtime for AI agents. Turns model tool requests into policy-checked, approval-gated, idempotent, auditable operational effects. Phase 1 tested end-to-end. Apache 2.0.
+
+| Capability | What it does |
+|-----------|-------------|
+| Policy gate | Evaluates tool risk level before any action is taken |
+| Human approval | Routes high-risk actions to a human reviewer |
+| Stale detection | Rechecks resource state at approval time — invalidates stale approvals before dispatch |
+| Idempotent dispatch | Prevents duplicate execution with SHA-256 keyed commands |
+| Append-only audit | 7-event chain written per governed loop, immutable by design |
+
+---
+
 ### [Conversational AI Patterns](https://github.com/nenedesign/conversational-ai-patterns)
 
 ![Conversational AI](https://img.shields.io/badge/Conversational_AI-1B1B1B?style=flat&logoColor=white)
