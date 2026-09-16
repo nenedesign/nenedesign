@@ -4,7 +4,7 @@ I'm Neville Ko, Head of Product & Experience at [Distinct AI](https://www.distin
 
 I specialize in agentic RAG systems, multi-agent orchestration, conversational AI design, and governance-aware AI mapped to real compliance frameworks: SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10. My work is production-ready, privacy-first, and built with audit trails, least-privilege tooling, and human-in-the-loop controls.
 
-Disclaimer: Content are my views and do not necessarily represent the views of my current or former employers.
+Disclaimer: This is a personal account. Content are my views and do not necessarily represent the views of my current or former employers.
 
 ---
 
