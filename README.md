@@ -14,7 +14,7 @@ Disclaimer: This is a personal account. Content are my views and do not necessar
 
 ![Governed AI Runtime](https://img.shields.io/badge/Governed_AI_Runtime-1A1A2E?style=flat&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-A self-hostable governed action runtime for AI agents. Turns model tool requests into policy-checked, approval-gated, idempotent, auditable operational effects. Four phases complete and tested. Apache 2.0.
+A production-grade open-source API for teams building AI agents in regulated industries. Sits between the AI model and business systems (payroll, HR, ERP), enforcing policy, routing high-risk actions to human approval, and keeping a full audit trail of every action the agent takes. Built for environments where AI cannot act without oversight. Four phases complete and tested. Apache 2.0.
 
 ```mermaid
 sequenceDiagram
