@@ -1,8 +1,8 @@
-# Neville Ko — AI Product Manager, Designer & Builder
+# Neville Ko | AI Product Manager, Designer & Builder
 
 **Product leader with 20 years shipping 0-to-1 products.** Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/creators/nene/) with published templates on the marketplace.
 
-I build production-grade agentic AI for regulated industries — governance-aware systems mapped to real compliance frameworks: **SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10**. My work ships with audit trails, least-privilege tooling, and human-in-the-loop controls.
+I build production-grade conversational AI, agentic RAG, and multi-agent systems for regulated industries: fintech, healthcare, and legal. My work is governance-aware by design, mapped to real compliance frameworks: **SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10**. Everything ships with audit trails, least-privilege tooling, and human-in-the-loop controls.
 
 Disclaimer: This is a personal account. Content are my views and do not necessarily represent the views of my current or former employers.
 
@@ -26,7 +26,7 @@ sequenceDiagram
     Model->>Runtime: POST /v1/tool-calls
     Runtime-->>Model: 200 approval_required
     Human->>Runtime: POST /v1/approvals/{id}/approve
-    Note over Runtime: Recheck — stale detection
+    Note over Runtime: Recheck, stale detection
     Runtime->>Provider: commit_correction (idempotent)
     Provider-->>Runtime: committed / unknown
     Runtime-->>Model: command.succeeded / reconciliation required
@@ -36,12 +36,12 @@ sequenceDiagram
 |-----------|-------------|
 | Policy gate | Evaluates tool risk level before any action is taken |
 | Human approval | Routes high-risk actions to a human reviewer |
-| Stale detection | Rechecks resource state at approval time — invalidates stale approvals before dispatch |
+| Stale detection | Rechecks resource state at approval time; invalidates stale approvals before dispatch |
 | Idempotent dispatch | Prevents duplicate execution with SHA-256 keyed commands |
 | Append-only audit | 11-event chain written per governed loop, immutable by design |
 | Command worker | Background dispatch with `FOR UPDATE SKIP LOCKED`, outbox pattern, unknown-outcome handling |
-| Managed runs | Full conversation lifecycle owned by the runtime — Claude Sonnet 4.6 as orchestrating model |
-| Multi-agent handoffs | Authority-boundary transfers with scoped context packages — no full session leakage |
+| Managed runs | Full conversation lifecycle owned by the runtime; Claude Sonnet 4.6 as orchestrating model |
+| Multi-agent handoffs | Authority-boundary transfers with scoped context packages; no full session leakage |
 
 ---
 
