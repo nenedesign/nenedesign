@@ -1,4 +1,4 @@
-# Neville Ko — AI Product Manager & Builder
+# Neville Ko — AI Product Manager, Designer & Builder
 
 **Product leader with 20 years shipping 0-to-1 products.** Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/creators/nene/) with published templates on the marketplace.
 
