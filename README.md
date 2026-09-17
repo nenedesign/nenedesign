@@ -10,7 +10,7 @@ Disclaimer: This is a personal account. Content are my views and do not necessar
 
 ## Featured Work
 
-### [Conversational Operations Runtime](https://github.com/nenedesign/conversational-ops-runtime)
+### [Conversational AI Operations Runtime](https://github.com/nenedesign/conversational-ops-runtime)
 
 ![Governed AI Runtime](https://img.shields.io/badge/Governed_AI_Runtime-1A1A2E?style=flat&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
@@ -36,12 +36,12 @@ sequenceDiagram
 |-----------|-------------|
 | Policy gate | Evaluates tool risk level before any action is taken |
 | Human approval | Routes high-risk actions to a human reviewer |
-| Stale detection | Rechecks resource state at approval time; invalidates stale approvals before dispatch |
-| Idempotent dispatch | Prevents duplicate execution with SHA-256 keyed commands |
-| Append-only audit | 11-event chain written per governed loop, immutable by design |
-| Command worker | Background dispatch with `FOR UPDATE SKIP LOCKED`, outbox pattern, unknown-outcome handling |
+| Stale detection | Confirms nothing has changed between approval and execution; blocks the action if the situation has shifted |
+| Idempotent dispatch | Prevents the same action from running twice, even if a network error triggers a retry |
+| Append-only audit | Full audit trail recorded for every action; cannot be edited or deleted after the fact |
+| Command worker | Executes approved actions in the background; handles partial failures and unknown outcomes without data loss |
 | Managed runs | Full conversation lifecycle owned by the runtime; Claude Sonnet 4.6 as orchestrating model |
-| Multi-agent handoffs | Authority-boundary transfers with scoped context packages; no full session leakage |
+| Multi-agent handoffs | Transfers control between specialized agents with permission boundaries; each agent only sees what it needs |
 
 ---
 
@@ -171,10 +171,10 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 
 ## Research Focus
 
-- **Multi-Agent Orchestration:** modality-agnostic, agent-to-agent workflows focused on security and privacy
+- **Multi-Agent Orchestration:** multi-agent workflows that work across text, voice, and structured data, built with security and privacy guardrails
 - **Privacy-First Local AI:** on-device open-weight models for sensitive financial and healthcare data
 - **Context and Memory Management:** hybrid memory retrieval for context-aware personalization
-- **Hybrid Inference Routing:** optimizing token efficiency, latency, and cost across cloud and local
+- **Hybrid Inference Routing:** choosing the right AI model for each task to balance speed, cost, and data privacy
 
 ---
 
