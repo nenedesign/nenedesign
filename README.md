@@ -2,7 +2,7 @@
 
 **Product leader with 20 years shipping 0-to-1 products.** Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/creators/nene/) with published templates on the marketplace.
 
-I build production-grade conversational AI, agentic RAG, and multi-agent systems for regulated industries: fintech, healthcare, and legal. My work is governance-aware by design, mapped to real compliance frameworks: **SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10**. Everything ships with audit trails, least-privilege tooling, and human-in-the-loop controls.
+I build production-grade **conversational AI, agentic RAG, and multi-agent systems for regulated industries: fintech, healthcare, and legal**. My work is governance-aware by design, mapped to real compliance frameworks: **SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10**. Everything ships with audit trails, least-privilege tooling, and human-in-the-loop controls.
 
 Disclaimer: This is a personal account. Content are my views and do not necessarily represent the views of my current or former employers.
 
