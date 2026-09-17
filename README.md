@@ -1,8 +1,8 @@
 # Neville Ko — AI Product Manager & Builder
 
-I'm Neville Ko, Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/creators/nene/) with published templates on the n8n marketplace. I have 20 years of experience shipping 0-to-1 products and I'm now building production-grade AI automation for regulated industries like financial services and healthcare.
+**Product leader with 20 years shipping 0-to-1 products.** Head of Product & Experience at [Distinct AI](https://www.distinctplugins.io/) and an [official n8n creator](https://n8n.io/creators/nene/) with published templates on the marketplace.
 
-I specialize in **agentic RAG systems, multi-agent orchestration, conversational AI design, and governance-aware AI mapped to real compliance frameworks: SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10**. My work is production-ready, privacy-first, and built with audit trails, least-privilege tooling, and human-in-the-loop controls.
+I build production-grade agentic AI for regulated industries — governance-aware systems mapped to real compliance frameworks: **SEC/FINRA, OSFI E-23, SOC 2 Type II, PCI-DSS v4.0, and OWASP LLM Top 10**. My work ships with audit trails, least-privilege tooling, and human-in-the-loop controls.
 
 Disclaimer: This is a personal account. Content are my views and do not necessarily represent the views of my current or former employers.
 
@@ -14,7 +14,23 @@ Disclaimer: This is a personal account. Content are my views and do not necessar
 
 ![Governed AI Runtime](https://img.shields.io/badge/Governed_AI_Runtime-1A1A2E?style=flat&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-A self-hostable governed action runtime for AI agents. Turns model tool requests into policy-checked, approval-gated, idempotent, auditable operational effects. Phase 1 tested end-to-end. Apache 2.0.
+A self-hostable governed action runtime for AI agents. Turns model tool requests into policy-checked, approval-gated, idempotent, auditable operational effects. Four phases complete and tested. Apache 2.0.
+
+```mermaid
+sequenceDiagram
+    participant Model as AI Agent
+    participant Runtime as Runtime
+    participant Human as Approver
+    participant Provider as External System
+
+    Model->>Runtime: POST /v1/tool-calls
+    Runtime-->>Model: 200 approval_required
+    Human->>Runtime: POST /v1/approvals/{id}/approve
+    Note over Runtime: Recheck — stale detection
+    Runtime->>Provider: commit_correction (idempotent)
+    Provider-->>Runtime: committed / unknown
+    Runtime-->>Model: command.succeeded / reconciliation required
+```
 
 | Capability | What it does |
 |-----------|-------------|
@@ -22,7 +38,10 @@ A self-hostable governed action runtime for AI agents. Turns model tool requests
 | Human approval | Routes high-risk actions to a human reviewer |
 | Stale detection | Rechecks resource state at approval time — invalidates stale approvals before dispatch |
 | Idempotent dispatch | Prevents duplicate execution with SHA-256 keyed commands |
-| Append-only audit | 7-event chain written per governed loop, immutable by design |
+| Append-only audit | 11-event chain written per governed loop, immutable by design |
+| Command worker | Background dispatch with `FOR UPDATE SKIP LOCKED`, outbox pattern, unknown-outcome handling |
+| Managed runs | Full conversation lifecycle owned by the runtime — Claude Sonnet 4.6 as orchestrating model |
+| Multi-agent handoffs | Authority-boundary transfers with scoped context packages — no full session leakage |
 
 ---
 
@@ -183,6 +202,3 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 
 **Links:** [Portfolio](https://www.fromus.ca/ai-builds) · [LinkedIn](https://www.linkedin.com/in/nevilleko/) · [n8n Official Creator](https://n8n.io/creators/nene/)
 
----
-
-Open to advisory, consulting, and collaboration on AI automation, agentic systems, and governance-aware AI for regulated industries. [Connect on LinkedIn](https://www.linkedin.com/in/nevilleko/)
