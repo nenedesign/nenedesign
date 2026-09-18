@@ -16,27 +16,7 @@ Disclaimer: This is a personal account. Content are my views and do not necessar
 
 A production-grade open-source API for teams building AI agents in regulated industries. Sits between the AI model and business systems (payroll, HR, ERP), enforcing policy, routing high-risk actions to human approval, and keeping a full audit trail of every action the agent takes. Built for environments where AI cannot act without oversight. Four phases complete and tested. Apache 2.0.
 
-```mermaid
-flowchart LR
-    A[AI Agent] --> PG
-
-    subgraph Runtime [Conversational AI Operations Runtime]
-        PG[Policy Gate]
-        CW[Execute Action]
-        AL[(Audit Log)]
-        H[Human Approver]
-
-        PG -->|low-risk| CW
-        PG -->|high-risk| H
-        H -->|approved| CW
-        CW --> AL
-    end
-
-    CW --> B[Business Systems\nPayroll · HR · ERP]
-
-    style Runtime fill:#eef0f8,stroke:#1A1A2E,stroke-width:2px
-    style H fill:#1A1A2E,color:#ffffff,stroke:#1A1A2E
-```
+![Conversational AI Operations Runtime — Architecture](https://raw.githubusercontent.com/nenedesign/conversational-ops-runtime/main/docs/architecture-diagram.svg)
 
 | Capability | What it does |
 |-----------|-------------|
