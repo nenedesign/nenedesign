@@ -208,5 +208,5 @@ Production-ready automation workflows: agentic RAG, AI agents, and developer uti
 
 ---
 
-*This is a personal account. Views are my own and do not represent my current or former employers. All work is open-source and provided as-is, without warranty of any kind. Nothing here constitutes legal, compliance, or professional advice. Use at your own risk. The author assumes no liability for damages arising from use of any code, documentation, or patterns published here.*
+*Disclaimer: This is a personal account. Views are my own and do not represent my current or former employers. All work is open-source and provided as-is, without warranty of any kind. Nothing here constitutes legal, compliance, or professional advice. Use at your own risk. The author assumes no liability for damages arising from use of any code, documentation, or patterns published here.*
 
