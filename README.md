@@ -51,6 +51,26 @@ Research grounded in: Google PAIR, Microsoft HAX + Amershi et al. (CHI 2019), An
 
 ---
 
+### [Trauma-Informed Design Patterns](https://github.com/nenedesign/trauma-informed-design-patterns)
+
+![Trauma-Informed Design](https://img.shields.io/badge/Trauma--Informed_Design-1D3557?style=flat&logoColor=white) ![SAMHSA TIP 57](https://img.shields.io/badge/SAMHSA_TIP_57-2A6E7C?style=flat&logoColor=white)
+
+Design patterns for products that handle sensitive content, evidence, or high-stakes investigations. Grounded in SAMHSA's six trauma-informed care principles (TIP 57) and applied to interaction design. For designers and product teams building forensic investigation tools, content moderation platforms, abuse reporting systems, and crisis services.
+
+| Pattern | Category | Risk |
+|---------|----------|------|
+| [Content Gating](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/content-gating.md) | Safety and Emotional Load | High |
+| [Evidence Provenance](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/evidence-provenance.md) | Trust, Transparency, and Provenance | High |
+| [Explainable AI Output](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/explainable-ai-output.md) | Trust, Transparency, and Provenance | High |
+| [Annotation and Distance](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/annotation-and-distance.md) | Control, Agency, and Pacing | High |
+| [High-Exposure Content Review](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/high-exposure-content-review.md) | Investigator Wellness | High |
+| [Neutral Microcopy](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/neutral-microcopy.md) | Language, Microcopy, and Inclusivity | Medium |
+| [Least-Privilege Access](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/least-privilege-access.md) | Privacy, Security, and Ethical Safeguards | High |
+
+13 patterns total. Includes a scorable [Forensic UI Audit](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/audit/forensic-ui-audit.md) covering 8 categories and 66 items.
+
+---
+
 ### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance-owasp10)
 
 ![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM_Top_10-000000?style=flat&logoColor=white)
@@ -127,26 +147,6 @@ Prompt library and output scanner for AI deployments in cross-border investment 
 | [Prohibited Claims Prompt](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/prompt-library/finra-ciro-03-prohibited-claims.md) | System prompt | Blocks return guarantees, performance predictions, and exaggerated claims (FINRA 2210(d), CIRO fair dealing) |
 | [Supervision Alignment Prompt](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/prompt-library/finra-ciro-04-supervision-alignment.md) | System prompt | Flags AI outputs requiring principal review before client delivery (CIRO 2900, FINRA 3110) |
 | [Investment Recommendation Scanner](https://github.com/nenedesign/ai-governance-sec-finra/blob/main/workflows/rec-scanner/workflow.json) | n8n workflow | Scans AI-generated text for 5 advice-boundary violation types with rule citations and remediation actions |
-
----
-
-### [Trauma-Informed Design Patterns](https://github.com/nenedesign/trauma-informed-design-patterns)
-
-![Trauma-Informed Design](https://img.shields.io/badge/Trauma--Informed_Design-1D3557?style=flat&logoColor=white) ![SAMHSA TIP 57](https://img.shields.io/badge/SAMHSA_TIP_57-2A6E7C?style=flat&logoColor=white)
-
-Design patterns for products that handle sensitive content, evidence, or high-stakes investigations. Grounded in SAMHSA's six trauma-informed care principles (TIP 57) and applied to interaction design. For designers and product teams building forensic investigation tools, content moderation platforms, abuse reporting systems, and crisis services.
-
-| Pattern | Category | Risk |
-|---------|----------|------|
-| [Content Gating](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/content-gating.md) | Safety and Emotional Load | High |
-| [Evidence Provenance](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/evidence-provenance.md) | Trust, Transparency, and Provenance | High |
-| [Explainable AI Output](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/explainable-ai-output.md) | Trust, Transparency, and Provenance | High |
-| [Annotation and Distance](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/annotation-and-distance.md) | Control, Agency, and Pacing | High |
-| [High-Exposure Content Review](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/high-exposure-content-review.md) | Investigator Wellness | High |
-| [Neutral Microcopy](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/neutral-microcopy.md) | Language, Microcopy, and Inclusivity | Medium |
-| [Least-Privilege Access](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/least-privilege-access.md) | Privacy, Security, and Ethical Safeguards | High |
-
-13 patterns total. Includes a scorable [Forensic UI Audit](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/audit/forensic-ui-audit.md) covering 8 categories and 66 items.
 
 ---
 
