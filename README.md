@@ -71,6 +71,25 @@ Design patterns for products that handle sensitive content, evidence, or high-st
 
 ---
 
+### [AI Accountability Design Patterns](https://github.com/nenedesign/ai-accountability-design-patterns)
+
+![AI Accountability](https://img.shields.io/badge/AI_Accountability-1A1A2E?style=flat&logoColor=white)
+
+Design patterns for AI-assisted products that must answer for their decisions, data, and outputs. Covers 12 interlocking accountability concepts grounded in published standards, peer-reviewed research, and forensic practice. Includes established patterns with industry examples and proposed patterns that extend the existing literature where the field is thin.
+
+| Concept | Core question | Patterns |
+|---------|--------------|---------|
+| [Traceability](https://github.com/nenedesign/ai-accountability-design-patterns/blob/main/concepts/01-traceability.md) | How did we get here? | Established |
+| [Auditability](https://github.com/nenedesign/ai-accountability-design-patterns/blob/main/concepts/02-auditability.md) | What happened, and can we prove it? | Established |
+| [Chain of Custody](https://github.com/nenedesign/ai-accountability-design-patterns/blob/main/concepts/05-chain-of-custody.md) | Who had it, and when did they pass it on? | Established + Proposed |
+| [Explainability](https://github.com/nenedesign/ai-accountability-design-patterns/blob/main/concepts/06-explainability.md) | Why did the system decide this? | Established |
+| [Reproducibility](https://github.com/nenedesign/ai-accountability-design-patterns/blob/main/concepts/07-reproducibility.md) | Can we recreate this result independently? | Established + Proposed |
+| [Responsibility Assignment](https://github.com/nenedesign/ai-accountability-design-patterns/blob/main/concepts/09-responsibility-assignment.md) | Who is responsible for this decision? | Established + Proposed |
+
+12 concepts total. Includes a scorable [AI Accountability Audit](https://github.com/nenedesign/ai-accountability-design-patterns/blob/main/audit/ai-accountability-audit.md) covering all 12 concepts across 64 items.
+
+---
+
 ### [AI Governance: OWASP LLM Top 10 Implementations](https://github.com/nenedesign/ai-governance-owasp10)
 
 ![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM_Top_10-000000?style=flat&logoColor=white)
