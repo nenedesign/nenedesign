@@ -55,7 +55,7 @@ Research grounded in: Google PAIR, Microsoft HAX + Amershi et al. (CHI 2019), An
 
 ![Trauma-Informed Design](https://img.shields.io/badge/Trauma--Informed_Design-1D3557?style=flat&logoColor=white) ![SAMHSA TIP 57](https://img.shields.io/badge/SAMHSA_TIP_57-2A6E7C?style=flat&logoColor=white)
 
-Design patterns for products that handle sensitive content, evidence, or high-stakes investigations. Grounded in SAMHSA's six trauma-informed care principles (TIP 57) and applied to interaction design. For designers and product teams building forensic investigation tools, content moderation platforms, abuse reporting systems, and crisis services.
+Design patterns for products that handle sensitive content, evidence, or high-stakes investigations. Grounded in SAMHSA's six trauma-informed care principles (TIP 57) and applied to interaction design. For designers and product teams building high-stakes investigation tools, content moderation platforms, abuse reporting systems, and crisis services.
 
 | Pattern | Category | Risk |
 |---------|----------|------|
@@ -67,7 +67,7 @@ Design patterns for products that handle sensitive content, evidence, or high-st
 | [Neutral Microcopy](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/neutral-microcopy.md) | Language, Microcopy, and Inclusivity | Medium |
 | [Least-Privilege Access](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/patterns/least-privilege-access.md) | Privacy, Security, and Ethical Safeguards | High |
 
-13 patterns total. Includes a scorable [Forensic UI Audit](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/audit/forensic-ui-audit.md) covering 8 categories and 66 items.
+13 patterns total. Includes a scorable [High-Stakes UI Audit](https://github.com/nenedesign/trauma-informed-design-patterns/blob/main/audit/high-stakes-ui-audit.md) covering 8 categories and 66 items.
 
 ---
 
@@ -75,7 +75,7 @@ Design patterns for products that handle sensitive content, evidence, or high-st
 
 ![AI Accountability](https://img.shields.io/badge/AI_Accountability-1A1A2E?style=flat&logoColor=white)
 
-Design patterns for AI-assisted products that must answer for their decisions, data, and outputs. Covers 12 interlocking accountability concepts grounded in published standards, peer-reviewed research, and forensic practice. Includes established patterns with industry examples and proposed patterns that extend the existing literature where the field is thin.
+Design patterns for AI-assisted products that must answer for their decisions, data, and outputs. Covers 12 interlocking accountability concepts grounded in published standards, peer-reviewed research, and investigative practice. Includes established patterns with industry examples and proposed patterns that extend the existing literature where the field is thin.
 
 | Concept | Core question | Patterns |
 |---------|--------------|---------|
