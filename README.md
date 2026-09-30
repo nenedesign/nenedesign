@@ -29,7 +29,7 @@ A production-grade open-source API for teams building AI agents in regulated ind
 
 ---
 
-### [AgentView](https://github.com/nenedesign/AgentView)
+### [AgentView - Agent Observability & Traceability](https://github.com/nenedesign/AgentView)
 
 ![AgentView](https://img.shields.io/badge/AgentView-2E7D32?style=flat&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
