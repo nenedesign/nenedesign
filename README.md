@@ -33,7 +33,7 @@ A production-grade open-source API for teams building AI agents in regulated ind
 
 ![AgentView](https://img.shields.io/badge/AgentView-2E7D32?style=flat&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-Open agent quality layer. A Python SDK that wraps agent code, records every step, and renders the recording as a single self-contained HTML page with a colored node graph and plain-English failure explanations. A non-technical stakeholder can look at the report and understand what went wrong in about thirty seconds, without asking anyone. Sits alongside the runtime: `conversational-ops-runtime` governs actions, `AgentView` observes and validates them. Apache 2.0.
+Open agent quality layer for non-technical teams. A Python SDK that wraps agent code, records every step, and renders the recording as a single self-contained HTML page with a colored node graph and plain-English failure explanations. A non-technical stakeholder can look at the report and understand what went wrong in about thirty seconds, without asking anyone. Sits alongside the runtime: `conversational-ops-runtime` governs actions, `AgentView` observes and validates them. Apache 2.0.
 
 | Capability | What it does |
 |-----------|-------------|
