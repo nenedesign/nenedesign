@@ -33,15 +33,15 @@ A production-grade open-source API for teams building AI agents in regulated ind
 
 ![AgentView](https://img.shields.io/badge/AgentView-2E7D32?style=flat&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-Open agent quality layer for non-technical teams. A Python SDK that wraps agent code, records every step, and renders the recording as a single self-contained HTML page with a colored node graph and plain-English failure explanations. A non-technical stakeholder can look at the report and understand what went wrong in about thirty seconds, without asking anyone. Sits alongside the runtime: `conversational-ops-runtime` governs actions, `AgentView` observes and validates them. Apache 2.0.
+Open agent quality layer for non-technical teams. A Python SDK that wraps agent code, records every step, and renders the recording as a single self-contained HTML page with a delivery-tracking timeline and plain-English failure explanations. A non-technical stakeholder can look at the report and understand what went wrong in about thirty seconds, without asking anyone. Sits alongside the runtime: `conversational-ops-runtime` governs actions, `AgentView` observes and validates them. Apache 2.0.
 
 | Capability | What it does |
 |-----------|-------------|
 | Four decorators | `@observe_agent`, `@observe_tool`, `@observe_model`, `@observe_validation` wrap any Python function; sync and async both work |
 | Claim-versus-evidence validation | Validators are a first-class span kind that records the claim, the evidence available, and the verdict |
-| Layperson-first HTML report | One self-contained file with a colored graph and sentence explanations; opens offline, no server, no network |
+| Layperson-first HTML report | One self-contained file with a vertical timeline of step cards, boarding-pass summary, and sentence explanations; opens offline, no server, no network |
 | Conservative diagnostic aggregation | Worst-child wins; the report shows which specific step turned an agent red |
-| Validates edges | Dashed edges show which model or tool output each validator judged |
+| Nested validator substeps | Each validator appears under the step it judged, PR-review-thread style, with the verdict quoted in plain English |
 | Portable JSONL trace format | v0.1 file contract; external evaluators and platform adapters can consume without importing the library |
 | Privacy-first defaults | Prompts and responses off, secrets scrubbed; opt in per run |
 
